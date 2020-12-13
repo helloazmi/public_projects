@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>azmi | soundboard</title>
+    <title>azmi | dazboard</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -12,75 +12,97 @@
 
   <body>
    <div class="container" style="background-color:;text-align:center;padding-top:60px;"></br>
-    <!--  <h1>Welcome to Soundboard</h1> -->
-    <h1 style="color:white">DAZBOARD</h1> <!--- orangina: #FF9147 White--></br></br>
+    <h1 style="color:white">DAZBOARD</h1> <!--- orangina: #FF9147 White-->
+    <p id="date" style="font-size:19px;">DATE GOES HERE</p></br></br>
 
 
 
-<!--Main container-->
+<!--Main container, button-group-->
       <div class="button_container" class="btn-group mr-12" role="group" style="margin:0 auto;background-color:;" >
 
 <!-- FACEBOOK -->   <div type="button" class="btn btn-secondary button_div">
-                      <div class="inside">
-                        <a href="https://facebook.com" style="">
+                      <div class="inside"><a href="https://facebook.com" style="">
                           <img class="imgicon" width="60" style="margin-bottom:10px" src="img/iconimg_facebbook.png">
                           <p class="imgicon_title">Facebook</p></a></div></div>
 
 <!-- MESSENGER --> <div type="button" class="btn btn-secondary button_div">
-                      <div class="inside">
-                        <a href="https://messenger.com" style="">
+                      <div class="inside"><a href="https://messenger.com" style="">
                           <img class="imgicon" width="60" style="margin-bottom:10px" src="img/iconimg_messenger2.png">
                           <p class="imgicon_title">Messenger</p></a></div></div>
 
 <!-- TRELLO -->    <div type="button" class="btn btn-secondary button_div">
-                      <div class="inside">
-                        <a href="https://trello.com/b/Adf1dEOh/hem" style="">
+                      <div class="inside"><a href="https://trello.com/b/Adf1dEOh/hem" style="">
                           <img class="imgicon" width="60" style="margin-bottom:10px" src="img/iconimg_trello2.png">
                           <p class="imgicon_title">Trello</p></a></div></div>
 
 <!-- INSTAGRAM--> <div type="button" class="btn btn-secondary button_div">
-                    <div class="inside">
-                        <a href="https://instagram.com" style="">
+                    <div class="inside"><a href="https://instagram.com" style="">
                           <img class="imgicon" width="60" style="margin-bottom:10px" src="img/iconimg_instagram.png">
                           <p class="imgicon_title">Instagram</p></a></div></div>
 
-<!-- SCloud -->  <div type="button" class="btn btn-secondary button_div">
-                    <div class="inside">
-                        <a href="https://soundcloud.com" style="">
-                          <img class="imgicon" width="60" style="margin-bottom:10px" src="img/iconimg_soundcloud.png">
-                          <p class="imgicon_title">Soundcloud</p></a></div></div>
-
-
-
-<!-- BUTTON x --> <div type="button" class="btn btn-secondary button_div">
-                    <div class="inside">
-                        <a href="https://web.whatsapp.com" style="">
+<!-- Wapp x --> <div type="button" class="btn btn-secondary button_div">
+                    <div class="inside"><a href="https://web.whatsapp.com" style="">
                           <img class="imgicon" width="60" style="margin-bottom:10px" src="img/iconimg_whatsapp.png">
                           <p class="imgicon_title">Whatsapp</p></a></div></div>
 
+  </div> <!-- button_container --></br>
+
+
+<div class="button_container" class="btn-group mr-12" role="group" style="margin:0 auto;background-color:;">
 
 
 
-                  <div type="button" class="btn btn-secondary button_div">
-                                      <div class="inside">
-                                          <a href="https://naspers.udemy.com/course/python-and-flask-bootcamp-create-websites-using-flask/" style="">
-                                            <img class="imgicon" width="60" style="margin-bottom:10px" src="img/iconimg_udemy.png">
-                                            <p class="imgicon_title">Udemy</p></a></div></div>
+<!-- YTube --> <div type="button" class="btn btn-secondary button_div">
+                <div class="inside"><a href="https://youtube.com" style="">
+                      <img class="imgicon" width="60" style="margin-bottom:10px" src="img/iconimg_youtube.png">
+                      <p class="imgicon_title">Youtube</p></a></div></div>
+
+<!-- SCloud --> <div type="button" class="btn btn-secondary button_div">
+                  <div class="inside">
+                      <a href="https://soundcloud.com" style="">
+                        <img class="imgicon" width="60" style="margin-bottom:10px" src="img/iconimg_soundcloud.png">
+                        <p class="imgicon_title">Soundcloud</p></a></div></div>
+                        
+<!-- Degoo--> <div type="button" class="btn btn-secondary button_div">
+                <div class="inside"><a href="https://imdb.com" style="">
+                      <img class="imgicon" width="60" style="margin-bottom:10px" src="img/iconimg_imdb.png">
+                      <p class="imgicon_title">Imdb</p></a></div></div>
+
+<!-- Udemy --> <div type="button" class="btn btn-secondary button_div">
+                <div class="inside"><a href="https://naspers.udemy.com/course/python-and-flask-bootcamp-create-websites-using-flask/" style="">
+                      <img class="imgicon" width="60" style="margin-bottom:10px" src="img/iconimg_udemy.png">
+                      <p class="imgicon_title">Udemy</p></a></div></div>
 
 
 
+<!-- Degoo--> <div type="button" class="btn btn-secondary button_div">
+                <div class="inside"><a href="https://app.degoo.com/files/13208920877" style="">
+                      <img class="imgicon" width="60" style="margin-bottom:10px" src="img/iconimg_Degoo.png">
+                      <p class="imgicon_title">Degoo</p></a></div></div>
 
+<!-- Gmail, Drive, Calendar
 
+Backend, foodora.se,
+-->
+</div> <!-- container -->
 
-
-
-      </div> <!-- button_container -->
-
-
-
-
-   </div> <!-- container -->
   </body>
+
+
+
+<script>
+  // document.getElementById("demo").innerHTML = "From JavaScript";
+  // var addressBar=document.getElementById('urlbar');
+  // addressBar.focus();
+  var date = new Date();
+    var day = date.getDate([days]);
+    var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+      var month = months[date.getMonth()];
+        var year = date.getFullYear();
+
+  document.getElementById("date").innerHTML = days[date.getDay()]+', '+day+' '+month;
+</script>
 
 
 <style>
