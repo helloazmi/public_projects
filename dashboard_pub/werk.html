@@ -1,0 +1,163 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>azmi | dazboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
+        <style>
+          body{
+              background-color: #35363a;
+              color:white;
+              font-family: "Audiowide", sans-serif;
+          }
+        .imgicon_title {font-size:10px;}
+        a,a:hover{ color:white; text-decoration:none; cursor: pointer;}
+        .imgicon{width:60px;margin-top:8px;margin-bottom:10px}
+        .inside{ /*div som håller logo o texten */
+            /* Centrerar horizont + vertical */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            ackground-color: green;
+            /*border: 2px solid red;*/
+
+
+        }
+        .button_div { width:128px; height:128px;background-color:; }
+        .anchor-surface {display:inline-block;background-color:;width:100%;height:100%;padding:13px;margin-top:-0px;}
+
+         button_container{ /*button_container är paraply div för knappar. kod nedan scalear */
+          -webkit-transform:scale(0.65);
+          -moz-transform:scale(0.5);
+          -ms-transform:scale(0.5);
+          transform:scale(0.65);
+        }
+        </style>
+
+
+
+
+  </head>
+
+  <body>
+   <div class="container" style="background-color:;text-align:center;"></br></br></br>
+    <h1 style="color:white">DAZBOARD</h1> <!--- orangina: #FF9147 White-->
+    <p id="date" style="font-size:19px;">DATE GOES HERE</p></br></br>
+
+
+
+<!--Main container, button-group-->
+      <div class="button_container" class="btn-group mr-12" role="group" style="margin:0 auto;" >
+<!-- FACEBOOK -->   <div type="button" class="btn btn-secondary button_div" style="padding:0px;"> <!--FIXA något i bautton classes, padding -->
+                      <div class="inside"><a class="anchor-surface"href="https://facebook.com">
+                          <img class="imgicon" src="img/iconimg_facebbook.png">
+                          <p class="imgicon_title">Facebook</p></a></div></div>
+                          </a>
+
+
+<!-- MESSENGER --> <div type="button" class="btn btn-secondary button_div" style="padding:0px;">
+                      <div class="inside"><a class="anchor-surface" href="https://messenger.com">
+                          <img class="imgicon" src="img/iconimg_messenger2.png">
+                          <p class="imgicon_title">Messenger</p></a></div></div>
+<!-- TRELLO -->    <div type="button" class="btn btn-secondary button_div" style="padding:0px;">
+                      <div class="inside"><a class="anchor-surface" href="https://trello.com/b/Adf1dEOh/hem">
+                          <img class="imgicon" src="img/iconimg_trello2.png">
+                          <p class="imgicon_title">Trello</p></a></div></div>
+<!-- INSTAGRAM--> <div type="button" class="btn btn-secondary button_div" style="padding:0px;">
+                    <div class="inside"><a class="anchor-surface" href="https://instagram.com">
+                          <img class="imgicon" src="img/iconimg_instagram.png">
+                          <p class="imgicon_title">Instagram</p></a></div></div>
+<!-- Wapp x --> <div type="button" class="btn btn-secondary button_div" style="padding:0px;">
+                    <div class="inside"><a class="anchor-surface" href="https://web.whatsapp.com">
+                          <img class="imgicon" src="img/iconimg_whatsapp.png">
+                          <p class="imgicon_title">Whatsapp</p></a></div></div>
+    </div> <!-- button_container --></br>
+
+<div class="button_container" class="btn-group mr-12" role="group" style="margin:0 auto;background-color:;">
+
+
+<!-- SCloud --> <div type="button" class="btn btn-secondary button_div" style="padding:0px;">
+                  <div class="inside"><a class="anchor-surface" href="https://youtube.com">
+                        <img class="imgicon" src="img/iconimg_youtube.png"> <!--Fixa u2b bilden -->
+                        <p class="imgicon_title">Youtube</p></a></div></div>
+
+
+
+<!-- SCloud --> <div type="button" class="btn btn-secondary button_div" style="padding:0px;">
+                  <div class="inside"><a class="anchor-surface" href="https://soundcloud.com">
+                        <img class="imgicon" src="img/iconimg_soundcloud.png">
+                        <p class="imgicon_title">Soundcloud</p></a></div></div>
+<!-- Degoo--> <div type="button" class="btn btn-secondary button_div" style="padding:0px;">
+                <div class="inside"><a class="anchor-surface" href="https://imdb.com">
+                      <img class="imgicon" src="img/iconimg_imdb.png">
+                      <p class="imgicon_title">Imdb</p></a></div></div>
+<!-- Udemy --> <div type="button" class="btn btn-secondary button_div" style="padding:0px;">
+                <div class="inside"><a class="anchor-surface" href="https://naspers.udemy.com/course/python-and-flask-bootcamp-create-websites-using-flask/">
+                      <img class="imgicon" src="img/iconimg_udemy.png">
+                      <p class="imgicon_title">Udemy</p></a></div></div>
+<!-- Degoo--> <div type="button" class="btn btn-secondary button_div" style="padding:0px;">
+                <div class="inside"><a class="anchor-surface" href="https://app.degoo.com/files/13208920877">
+                      <img class="imgicon" src="img/iconimg_degoo.png">
+                      <p class="imgicon_title">Degoo</p></a></div></div>
+</div> <!-- Container-2 --></br></br>
+
+<!-- Container-3 start -->
+<div class="button_container" class="btn-group mr-12" role="group" style="margin:0 auto;background-color:;">
+<!-- YTube --> <div type="button" class="btn btn-secondary button_div" style="padding:0px;">
+                <div class="inside"><a class="anchor-surface" href="https://gmail.com">
+                      <img class="imgicon" src="img/iconimg_gmail.png">
+                      <p class="imgicon_title">Gmail</p></a></div></div>
+<!-- SCloud --> <div type="button" class="btn btn-secondary button_div" style="padding:0px;">
+                  <div class="inside">
+                      <a class="anchor-surface" href="https://calendar.google.com/calendar/u/1/r">
+                        <img class="imgicon" src="img/iconimg_gcal.png">
+                        <p class="imgicon_title">Calendar</p></a></div></div>
+<!-- Degoo--> <div type="button" class="btn btn-secondary button_div" style="padding:0px;">
+                <div class="inside"><a class="anchor-surface" href="https://drive.google.com">
+                      <img class="imgicon" src="img/iconimg_drive.png">
+                      <p class="imgicon_title">Gdrive</p></a></div></div>
+<!-- Udemy --> <div type="button" class="btn btn-secondary button_div" style="padding:0px;">
+                <div class="inside"><a class="anchor-surface" href="https://op.fd-admin.com/marketing/vouchers">
+                      <img class="imgicon" src="img/iconimg_backend.png">
+                      <p class="imgicon_title">Backend</p></a></div></div>
+<!-- Degoo--> <div type="button" class="btn btn-secondary button_div" style="padding:0px;">
+                <div class="inside"><a class="anchor-surface" href="https://marketing.fd-admin.com/se/offers/vouchers7">
+                      <img class="imgicon" src="img/iconimg_mmt.png">
+                      <p class="imgicon_title">Management </p></a></div></div>
+</div> <!-- Container-3 end --></br>
+
+
+
+<!--
+
+foodora.se,
+-->
+<a class="anchor-surface" style="color:#3a3d42" href="https://github.com/hellophant/dazboard">github</a>
+  </body>
+
+
+  <script>
+    // document.getElementById("demo").innerHTML = "From JavaScript";
+    // var addressBar=document.getElementById('urlbar');
+    // addressBar.focus();
+    var date = new Date();
+      var day = date.getDate([days]);
+      var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+      var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        var month = months[date.getMonth()];
+          var year = date.getFullYear();
+          document.getElementById("date").innerHTML = days[date.getDay()]+', '+day+' '+month;
+  </script>
+
+
+
+
+</html>
+<!-- 2020-12-15 fixat: anchor ytan -->
