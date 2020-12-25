@@ -1,0 +1,64 @@
+<!-- Detta är en base-template som innehåller
+* bootstrap (+extra som bstrap behöver)
+* jQuery
+* Javascript
+* Och lite extra som bootstrap
+ -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>azmi</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+<style>
+  body{
+      background-color: #35363a;
+      color:white; /* Text*/
+      font-family: "Audiowide", sans-serif; }
+  h1{ font-size: 40px; text-align:center;}
+
+</style>
+</head>
+
+
+  <body>    </br></br></br>
+
+    <h1 id="title">Find your station!</h1> </br></br>
+  <div class="" style="display: flex; justify-content: center;">   <!-- Centrerar-->
+      <input type="text" name="" id="search_input" style="text-align:center;caret-color: transparent;" placeholder="Station name...">
+      <button type="button" id="search_button">Search</button>
+    </div></br></br>
+    <div class="" style="text-align:center;">
+    <!-- Placeholder for output from api -->
+        <p id="api_output_name"></p>
+        <p id="api_output_site_id"></p>
+        <p id="api_output_x"></p>
+        <p id="api_output_y"></p>
+        <p id="paragraph" style="font-size:12px;"></p>
+
+        <a class="anchor-surface" style="color:#3a3d42" href="https://github.com/hellophant/dazboard">github</a>
+    </div></br></br>
+
+<!-- Placeholder for raw stringed object  -->
+
+  </body>
+
+
+
+
+
+
+
+<script src="script.js"></script>
+  <script> //Javascript, scripts
+    document.getElementById("paragraph").innerHTML = ""; //utan # . #id eller .class
+
+  </script>
+
+</html>
