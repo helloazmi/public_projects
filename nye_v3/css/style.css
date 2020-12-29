@@ -1,0 +1,32 @@
+body{
+    background-color: #59eb80;
+    color:white; /* Text*/
+    font-family: "Audiowide", sans-serif; }
+h1{ font-size: 22px; text-align:center;}
+#headline{font-size: 80px;}
+#the-word{font-size: 65px;color:blue;} /*theword*/
+.button_div { width:128px; height:128px;background-color:; }
+/* .anchor-surface {display:inline-block;background-color:;width:100%;height:100%;padding:13px;margin-top:-0px;} */
+
+button:focus { outline: none; box-shadow:none;}
+button:active{ background-color:#e3e3e3; }
+
+.in-game-button{width:200px;height:200px;font-size:34px;border: 2px solid #59eb80;}
+
+#pep-quote{font-size: 80px;}
+#pep-countdown{font-size: 150px;}
+/* #h1readyTimer{padding-top:150px;font-size: 150px;} */
+#ready{ width:40%; height:100px; color:#59eb80; font-size:35px;margin-top:20px;}
+#success{color:#59eb80;}
+#pass{color:#fc660f;}
+#countdown{font-size:130px;color:#;}
+#next{ width:45%; height:100px;  color:#59eb80;}
+.summary-headline{font-weight:bold;font-size:38px;}
+.scoreboard-headline{font-size: 32px;}
+.scoreboard-score{font-size: 120px;}
+/* #first-column {background-color:blue;}
+#second-column {background-color:pink;} */
+
+
+/* #won-words{background-color:white; color:#59eb80;}
+#lost-words{background-color:white; color: #fc660f;} */
