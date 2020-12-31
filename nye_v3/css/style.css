@@ -5,13 +5,13 @@ body{
 h1{ font-size: 22px; text-align:center;}
 #headline{font-size: 80px;}
 #the-word{font-size: 65px;color:blue;} /*theword*/
-.button_div { width:128px; height:128px;background-color:; }
+.button_div { width:128px; height:128px;background-color:white; }
 /* .anchor-surface {display:inline-block;background-color:;width:100%;height:100%;padding:13px;margin-top:-0px;} */
 
 button:focus { outline: none; box-shadow:none;}
 button:active{ background-color:#e3e3e3; }
 
-.in-game-button{width:200px;height:200px;font-size:34px;border: 2px solid #59eb80;}
+.in-game-button{width:200px;height:200px;font-size:34px; border: 2px solid white; background-color: white;/*knappens surface frg*/}
 
 #pep-quote{font-size: 80px;}
 #pep-countdown{font-size: 150px;}
@@ -26,6 +26,9 @@ button:active{ background-color:#e3e3e3; }
 .scoreboard-score{font-size: 120px;}
 /* #first-column {background-color:blue;}
 #second-column {background-color:pink;} */
+
+#end-game-headline{font-size:25px;margin-top:-150px;padding-bottom:25px;}
+#winner-headline{font-size:100px; margin-top:-30px; padding-bottom:20px;
 
 
 /* #won-words{background-color:white; color:#59eb80;}
