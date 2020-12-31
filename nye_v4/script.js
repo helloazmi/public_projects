@@ -16,11 +16,16 @@ let wonWordsFromRound = [],lostWordsFromRound = [];
 
 //let ord = ['bord', 'stol', 'kalas','maxhamburger'];
 // let ord = ['bord', 'stol', 'kalas', 'baltikum', 'europa', 'tandvård', 'viadukt','serpentin','parasit','terrordåd','DNA','Tegnell','Jimmy Åkesson','statskupp','Mars','spårvagn', 'hybris','demokrati','komunism','somelier','brexit','torped','svimfärdig','finlandsfärja','legosoldat','granatäpple','häxjakt'];
-let ord =['The Weeknd - Blinding Lights','Disney+','Mulan','Bränder i Australien','Cardi B - WAP','Börsen krashar', 'Tiger King','Parasite vann Oscar (för bäst film)','Prince Harry lämnar kungafamiljen (Megxit)', ' Guldbron anländer till Stockholm', 'Eurovision 2020 blir inställt.', 'Mordutredningen på Olof Palme lades ner.', 'Zlatans staty revs ner.', 'Brexit', 'Covid sprids i Europa.','Basketspelaren Kobe Bryant </b> dör i en helkopterolycka.', 'Max von Sydow avlider.', 'USA valår.','Donald Trump avgår' 'Sean Connery avlider.','Playstation 5 lanseras.', 'Stormkök är årets julklapp.', 'SF(biografer) stänger ner.']
+let ord =['The Weeknd - Blinding Lights', 'Disney+', 'Mulan','Bränder i Australien', 'Cardi B - WAP', 'Amerikanska börsen krashar', 'Tiger King', 'Parasite vinner Oscar (för bäst film)', 'Prince Harry lämnar kungafamiljen (Megxit)', ' Guldbron anländer till Stockholm', 'Eurovision 2020 blir inställt.', 'Mordutredningen på Olof Palme läggs ner.', 'Zlatans staty revs ner.', 'Brexit', 'Covid sprids i Europa.', 'Basketspelaren Kobe Bryant </b> dör i en helkopterolycka', 'Max von Sydow avlider', 'Val-år i USA', 'Donald Trump avgår', 'Sean Connery avlider','Playstation 5 lanseras', 'Stormkök är årets julklapp', 'SF(biografer) stänger ner']
+
+for (let i=0; i>ord.length; i++){
+console.log(ord[i])
+}
+
 let game_end = false;
 let firstRound = true;
 //fixa kanske sätt 2 sec timer på dessa
-let prepQuotes = ['Får du heat? Skyll på din lagkamrat.','Fråga inte vad laget gör för dig, </br> fråga vad du gör för laget.', "Kom igen nu, kör fö' fan!", 'Kavla upp ärmarna!','Är du redo?', 'Jalla samla poäng!!', 'Om du håller på förlorar, </b> försök vinna istället!', 'Din tid att skina börjar inom...', 'Går det dåligt? </br> Skyll på alkoholen! 🥂😉', 'Ingen minns en förlorare 👀', 'Go go go!', 'Detta handlar om mer än bara ära!', 'Sätt igång och vinn!', 'Du kanske ska dricka lite vatten?', 'Taktisk förlust är en typ av strategi...', 'Thrash talk kan få </br> motståndarna ur balans', 'Förlorande laget </br> kommer att ta disken!'];
+let prepQuotes = ['Är det svårt?? Skyll på din lagkamrat.','Fråga inte vad laget gör för dig, </br> fråga vad du gör för laget.', "Kom igen nu, kör fö' fan!", 'Kavla upp ärmarna!','Är du redo?', 'Du måste trycka i tid för </br> att registrera poängen!', 'Jalla samla poäng!!', 'Om du håller på förlorar, </b> försök vinna istället!', 'Din tid att skina börjar inom...', 'Går det dåligt? </br> Skyll på alkoholen! 🥂😉', 'Ingen minns en förlorare 👀', 'Kom igen nu!', 'Detta handlar om mer än bara ära!', 'Sätt igång och vinn!', 'Du kanske ska dricka lite vatten?', 'Taktisk förlust är en typ av strategi...', 'Thrash talk kan få </br> motståndarna ur balans', 'Förlorande laget </br> kommer att ta disken!'];
 
 console.log(`Ord length: ${ord.length} \n Quotes length: ${prepQuotes.length}`);
 
