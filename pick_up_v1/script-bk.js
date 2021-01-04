@@ -10,7 +10,7 @@ let confirmed_punchlines = [];
 fetch(url)
   .then(response => response.json())
   .then(data => {
- 
+
     json_object = data;
 
     for (let i=0; i<json_object.length; i++){
