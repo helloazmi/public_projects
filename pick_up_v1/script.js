@@ -63,7 +63,7 @@ function pickup_function() {
 
     opening_h1.innerHTML = confirmed_openings[0];
     //Sleep before giving punchline
-    sleep(1000).then(()=>{ console.log("Done"); punchline_h1.innerHTML = `$(confirmed_punchlines[0])`;})
+    sleep(1000).then(()=>{ console.log("Done"); punchline_h1.innerHTML = confirmed_punchlines[0];})
 }
 
 function sleep(ms){ return new Promise( resolver => setTimeout(resolver, ms));};
