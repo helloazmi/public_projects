@@ -34,10 +34,10 @@ fetch(url)
     console.log(confirmed_punchlines[3]);
     console.log(typeof confirmed_punchlines[3]);
 
-    if(confirmed_punchlines[3]== false){console.log('ITS FALSE')}
+    if(confirmed_punchlines[3]== false){console.log('COUDLNT FIND IT')}
 
     shuffle(confirmed_openings, confirmed_punchlines);
-    pickup_function(); //First run
+    setTimeout(pickup_function,3000) //First run
   })
 
 
@@ -50,8 +50,8 @@ function pickup_function() {
     let opening_h1 = document.getElementById('opening');
     let punchline_h1 = document.getElementById('punchline');
 
-    let opening_new = opening
-    let punchline_new
+    let opening_new = opening;
+    let punchline_new;
 
 
     //Clearing opening and punchline
@@ -61,10 +61,35 @@ function pickup_function() {
     confirmed_openings.splice(0,1)
     confirmed_punchlines.splice(0,1)
 
-    opening_h1.innerHTML = confirmed_openings[0];
-    //Sleep before giving punchline
-    sleep(1000).then(()=>{ console.log("Done"); punchline_h1.innerHTML = confirmed_punchlines[0];})
+    let confirmed_opening = confirmed_openings[0];
+      console.log(confirmed_opening);
+    if (confirmed_opening != undefined) {
+      opening_h1.innerHTML = confirmed_opening;
+      console.log(confirmed_opening)
+
+      //Sleep before giving punchline
+      let confirmed_punch = confirmed_punchlines[0];
+      sleep(1000).then(()=>{ console.log("Done"); punchline_h1.innerHTML = confirmed_punch})
+    } else {
+      opening_h1.innerHTML = 'Go and try the pick-up lines now, tiger!';
+
+    }
+
+
 }
+
+
+
+//
+//   sleep(1000).then(()=>{ console.log("Done"); punchline_h1.innerHTML = confirmed_punch;})
+//
+// } else {
+//   punchline_h1.innerHTML = 'Go and try out some of the pick-up lines, tiger!';
+
+
+
+
+
 
 function sleep(ms){ return new Promise( resolver => setTimeout(resolver, ms));};
 
