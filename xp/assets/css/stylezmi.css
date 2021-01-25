@@ -1,0 +1,126 @@
+/*
+	Theme Name: azmi-20221
+	Text Domain:
+	Version: 1.05
+	Description: A test for creating custom wordpress theme.
+	Tags: test, demo, azmi
+	Author: azmi bazmi
+	Author URI: -
+*/
+
+* {  margin: 0; padding: 0; }
+
+body{ background-color:; color:#35363a; font-family: Tahoma; font-size: 13px; -webkit-user-select: none; /* Removes text highlight*/
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;}
+h1 { font-size: 4rem; text-align:center;}
+
+.wrapper-navbar { text-align: center;}
+.navbar-brand {color:#35363a;}
+
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color:black;
+}
+
+a:hover { /* */
+  background-color: #fffc00;
+  color: blue;
+  width:500px;
+  /*#fe3afc #d807fa*/
+}
+
+img.tile-img:hover { transform: scale(1.1); }
+
+.btn-primary{background-color:purple;}
+
+.content-wrapper {  margin-top:5%;  background-color:;}
+
+
+.tile {  width:300px; height:300px; vertical-align: middle; text-align:center; display:table-cell; }
+
+.tile-img {
+  width:300px; height:300px;
+   display:block;
+
+}
+
+
+/* WIN XP*/
+table {
+  width: 300px; /* folder spacing/data-cell spacing*/
+  border-spacing: 120px;
+}
+
+table, th, td {
+  border: 0px solid #000;
+  text-align:center;
+  color:white;
+  font-weight: normal;
+  text-shadow: -1px 2px 4px #000;
+  cursor: default;
+
+}
+
+.desktop-icon:active + .icon-text{
+  background-color:#007ed8; /* #005097 (picked) #2089e6*/
+    padding-left: 4%; padding-right: 4%; padding-bottom:1%; padding-top:1%;
+}
+.icon-text:active {
+  background-color:#007ed8; /* #005097 (picked) #2089e6*/
+    padding-left: 4%; padding-right: 4%;  padding-bottom:1%; padding-top:1%;
+}
+
+.winxp_menu_popup: {
+  visibility: show;
+}
+
+
+.desktop-icon {
+  margin:auto; display:block;
+}
+.folder {
+  width:60px;
+}
+
+
+#newStartButton {
+  height:30px;
+  float:left;
+}
+
+#tray {
+  float:right;
+}
+
+/* modal */
+.modal-bg {
+  position: fixed;
+  width:100%;
+  height:100vh;
+
+  top:0;
+  left:0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {background-color: white; display:show;}
+
+/*MOBILE*/
+@media (max-width:415px){ /*iphone8, css applies until it pass max width*/
+  .headline-text {
+    color:;
+    font-size:10rem;
+  }
+}
+
+/* Debugger*/
+.border {  border: 1px solid blue!important;  }
+
+footer { margin-top:5%; padding-bottom:0%;}
