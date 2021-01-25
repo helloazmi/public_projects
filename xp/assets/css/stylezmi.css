@@ -22,15 +22,14 @@ h1 { font-size: 4rem; text-align:center;}
 
 a {
   text-decoration: none;
-  font-weight: bold;
-  color:black;
+  color:white;
 }
 
 a:hover { /* */
-  background-color: #fffc00;
-  color: blue;
-  width:500px;
-  /*#fe3afc #d807fa*/
+  background-color: ;
+  color: white;
+  background-color:#007ed8; /* #005097 (picked) #2089e6*/
+    padding-left: 1%; padding-right: 1%; padding-bottom:0%; padding-top:0%;
 }
 
 img.tile-img:hover { transform: scale(1.1); }
@@ -42,17 +41,13 @@ img.tile-img:hover { transform: scale(1.1); }
 
 .tile {  width:300px; height:300px; vertical-align: middle; text-align:center; display:table-cell; }
 
-.tile-img {
-  width:300px; height:300px;
-   display:block;
-
-}
 
 
 /* WIN XP*/
 table {
-  width: 300px; /* folder spacing/data-cell spacing*/
+  width: 320px; /* folder spacing/data-cell spacing*/
   border-spacing: 120px;
+  margin-left: 30px;
 }
 
 table, th, td {
@@ -62,17 +57,17 @@ table, th, td {
   font-weight: normal;
   text-shadow: -1px 2px 4px #000;
   cursor: default;
+
 }
+.icon-text { line-height: 1.1; font-size: 12px;}
 
 .desktop-icon:focus + .icon-text{
-  background-color:#007ed8; /* #005097 (picked) #2089e6*/
-    padding-left: 4%; padding-right: 4%; padding-bottom:1%; padding-top:1%;
+  /* background-color:#007ed8; padding-left: 4%; padding-right: 4%; padding-bottom:1%; padding-top:1%; */
 }
 
 
 .xyy:focus + .icon-text{
-  background-color:#007ed8; /* #005097 (picked) #2089e6*/
-    padding-left: 4%; padding-right: 4%; padding-bottom:1%; padding-top:1%;
+  /* background-color:#007ed8; padding-left: 4%; padding-right: 4%; padding-bottom:1%; padding-top:1% ;*/
 }
 .desktop-icon:focus:focus {
   outline:none
