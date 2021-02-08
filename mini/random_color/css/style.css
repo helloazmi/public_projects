@@ -1,0 +1,8 @@
+body{
+    background-color: ;
+    color:white; /* Text*/
+    font-family: "Audiowide", sans-serif; }
+h1{ font-size: 3rem; text-align:center;}
+    button:focus { outline: none; box-shadow:none;} /*Ingen focus ram (markören om nav med pialr)*/
+    button:active{ background-color:green; }
+    button {width:;height:;font-size:24px; border: 2px solid white; background-color: white;/*knappens surface frg*/}
