@@ -1,18 +1,3 @@
-/*
-
-Consumer Key	            ACNgbPIjtGTbjlCdqkNA
-Consumer Secret	LxzhrutsgTfIVgqwmkzohRSSVktzTITb
-
-Request Token URL	https://api.discogs.com/oauth/request_token
-Authorize URL	https://www.discogs.com/oauth/authorize
-Access Token URL	https://api.discogs.com/oauth/access_token
-
-// EXMEPEL MED MIN KOD OCH REQUEST
-https://api.discogs.com/database/search?q=Nirvana&key=ACNgbPIjtGTbjlCdqkNA&secret=LxzhrutsgTfIVgqwmkzohRSSVktzTITb
-
-*/
-// https://www.youtube.com/watch?v=4cYiC3EW4Rw
-
 
 let ignore = ['(official video)']
 
